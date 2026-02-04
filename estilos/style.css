@@ -49,6 +49,14 @@ main{
     display: block;
     padding: 10px;
 }
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p{
+    font-size: 0.8rem;
+}
+
 
 @media screen and (min-width:768px ) and (max-width: 922px) {
     body{
@@ -67,6 +75,7 @@ main{
         float: right;
         width: 70%;
     }
+    
  
 }
 @media screen and (min-width: 992px){
@@ -74,14 +83,20 @@ main{
         width: 950px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formluario{
-        float: right;
+        float: left;
         width: 50%;
     }
+    #formulario h1{
+    font-size: 2rem;
+}
+    #formulario p{
+    font-size: 1.2rem;
+}
 
     
 }
